@@ -3,13 +3,14 @@ function getObjKeys(obj, value) {
     return Object.keys(obj).filter(key => obj[key] === value);
   }
   const firebaseConfig = {
-    apiKey: "",
-    authDomain: "",
-    databaseURL: "",
-    projectId: "",
-    storageBucket: "",
-    messagingSenderId: "",
-    appId: ""
+    apiKey: "AIzaSyCI4gw424j1-yZGRUvOCpaSXsWgpzZrokc",
+    authDomain: "invm-engineering.firebaseapp.com",
+    databaseURL: "https://invm-engineering-default-rtdb.firebaseio.com",
+    projectId: "invm-engineering",
+    storageBucket: "invm-engineering.appspot.com",
+    messagingSenderId: "736003090433",
+    appId: "1:736003090433:web:e80a0232adc1184bd17800",
+    measurementId: "G-XBHGN2SRWR"
   };
 
 firebase.initializeApp(firebaseConfig);
